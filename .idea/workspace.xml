@@ -2,31 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace200d1-050b-4390-ab86-0dea80a8ab2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/migrations/0002_product_featured.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hi/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/t_about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/t_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/blog_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/ED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/comm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/for_get.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/gt_favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/lo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/log_in.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/peiqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/regis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/reset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/images/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/userinfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/jQuery.headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/media/nico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/media/root.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/blog_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/ED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/comm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/for_get.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/gt_favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/lo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/log_in.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/peiqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/regis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/reset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/images/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/userinfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jQuery.headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/nico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/root.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index_unlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/t_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/t_about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +101,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -55,8 +120,29 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.t_home.html">
+  <component name="RunManager" selected="Python.urls">
+    <configuration name="Test: myblog.static" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="myblog.static" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="t_home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/myblog/templates/t_home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -74,6 +160,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myblog/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myblog/urls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Django tests.Test: myblog.static" />
         <item itemvalue="JavaScript Debug.t_home.html" />
         <item itemvalue="Python.settings" />
       </list>
@@ -122,6 +232,12 @@
       <updated>1620195860005</updated>
       <workItem from="1620195887332" duration="10001000" />
       <workItem from="1620268551033" duration="1319000" />
+      <workItem from="1620284564681" duration="1569000" />
+      <workItem from="1620366493596" duration="20000" />
+      <workItem from="1620376874845" duration="7048000" />
+      <workItem from="1620401739348" duration="3951000" />
+      <workItem from="1620436444475" duration="243000" />
+      <workItem from="1620481495773" duration="731000" />
     </task>
     <servers />
   </component>
@@ -142,5 +258,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myblog$settings.coverage" NAME="settings Coverage Results" MODIFIED="1620195970894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myblog" />
+    <SUITE FILE_PATH="coverage/myblog$urls.coverage" NAME="urls Coverage Results" MODIFIED="1620400724710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myblog" />
+    <SUITE FILE_PATH="coverage/myblog$Test__myblog_static.coverage" NAME="Test: myblog.static Coverage Results" MODIFIED="1620396324786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

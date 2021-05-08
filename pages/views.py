@@ -13,4 +13,6 @@ def about_view(request,*args,**kwargs):
         "my_list":[1,2,3,4,5,6]
     }
     return render(request,"t_about.html",my_context)
+def index_unlog(request):
+    return render(request,"index_unlog.html")
 # Create your views here.
